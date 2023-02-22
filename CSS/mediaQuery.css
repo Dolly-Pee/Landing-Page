@@ -1,0 +1,65 @@
+@media screen and (max-width: 960px) {
+    body{
+        padding-bottom: 5%;
+    }
+      .div-1 .score-div{
+        border-radius: 100%;
+        margin: 13% 0;
+        padding: 20px 18px;
+        background: linear-gradient(#390cbe,#390cbe, rgba(71, 52, 235, 0.2));
+        text-align: center;
+        width: 50%;
+        position: relative;
+        left: 55px;
+      }
+      .div-2{
+        display: inline-block;
+        padding: 5px;
+        padding-bottom: 15px;
+        width:85%;
+        margin-left: 7%;
+      }
+      .div-2 .btn{
+        margin-left: 7%;
+        padding: 12px 100px;
+      }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    body{
+        padding-bottom: 5%;
+    }
+    .container{
+        flex-direction: column;
+        width: 65%;
+        margin: auto;
+        margin-bottom: 5%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+      .div-1{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+      .div-1 .score-div{
+        border-radius: 100%;
+        margin: 13% 0;
+        padding: 20px 18px;
+        background: linear-gradient(#390cbe,#390cbe, rgba(71, 52, 235, 0.2));
+        text-align: center;
+        width: 45%;
+        position: relative;
+        left: 70px;
+      }
+      .div-2{
+        display: inline-block;
+        padding: 5px;
+        padding-bottom: 15px;
+        width:85%;
+        margin-left: 8%;
+      }
+      .div-2 .btn{
+        padding: 12px 100px;
+      }
+  }
